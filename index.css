@@ -67,14 +67,15 @@ img {
   color: white;
   text-decoration: none;
   margin-bottom: 20px;
-  background-color: #f87b99;
+  font-family: roboto;
   /*======= create a background property. Set the value to #F87B99 */
+  background-color: #f87b99;
 }
 
 .container header nav a:hover {
+  /*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
   background: white;
   background-color: pink;
-  /*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
 }
 
 /*======= Create a selector for the about section to have the following styles:
@@ -129,9 +130,10 @@ footer nav a {
   margin: 10px;
   color: black;
   text-decoration: underline;
+  font-family: roboto;
 }
 footer nav a:first-child {
-  margin-left: 0;
+  margin-left: 20px;
 }
 
 /*======= Create a hover state for the anchor tag in the footer nav to have the following styles:
@@ -140,7 +142,7 @@ footer nav a:first-child {
 footer a:hover {
   color: white;
 }
-footer .footer-content .copyright {
+footer .copyright {
   padding: 20px 0;
   text-align: center;
 }
