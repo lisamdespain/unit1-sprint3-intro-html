@@ -21,7 +21,9 @@ h6 {
   /*=======  Update the font size to 30px */
   font-size: 30px;
 }
-
+/* section {
+  margin: 0;
+} */
 /*======= Create a selector for ALL p tags in the site to have the following styles:
 
 font-size: 16px;
@@ -43,12 +45,14 @@ p {
 */
 img {
   border-radius: 10px;
+  align-self: center;
 }
 .content-row {
   display: flex;
 }
 
 .content-row div {
+  /*======= create a margin propery.  Set the value to 20px */
   margin: 20px;
 }
 
@@ -67,7 +71,7 @@ img {
   color: white;
   text-decoration: none;
   margin-bottom: 20px;
-  font-family: roboto;
+  /* font-family: roboto; */
   /*======= create a background property. Set the value to #F87B99 */
   background-color: #f87b99;
 }
@@ -75,16 +79,17 @@ img {
 .container header nav a:hover {
   /*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
   background: white;
-  background-color: pink;
+  color: pink;
 }
 
 /*======= Create a selector for the about section to have the following styles:
   margin-top: 20px;
 */
-.about-section {
+#about {
   margin-top: 20px;
 }
 .contact-section {
+  margin-top: 20px;
   border-top: 1px dashed black;
   padding: 20px 0;
 }
@@ -97,8 +102,9 @@ img {
 /*======= Create a selector for the address tag in the contact-section class to have the following styles:
    line-height: 2;
 */
-.contact-section address {
+address {
   line-height: 2;
+  font-style: normal;
 }
 footer {
   width: 100%;
@@ -133,7 +139,7 @@ footer nav a {
   font-family: roboto;
 }
 footer nav a:first-child {
-  margin-left: 20px;
+  margin-left: 0px;
 }
 
 /*======= Create a hover state for the anchor tag in the footer nav to have the following styles:
@@ -144,5 +150,6 @@ footer a:hover {
 }
 footer .copyright {
   padding: 20px 0;
+  /*======= center the text here */
   text-align: center;
 }
